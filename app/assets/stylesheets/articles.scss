@@ -1,0 +1,57 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  text-align: center;
+  text-weight: lighter;
+  color: #A9A9A9;
+  font-family: "CabinSketch", sans-serif;
+  font-size: 75px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  text-weight: bold;
+  color: black;
+  font-family: "Futura", sans-serif;
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
+  text-weight: lighter;
+  font-style: oblique;
+  color: #053A6A;
+  font-family: "Futura", sans-serif;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.button_container {
+  text-align: center;
+  margin: auto;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.btn-medium {
+  text-decoration: none;
+  color: #0C1021;
+  border: 1px solid #999999;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 0.6;
+}
+.btn-medium:hover {
+  opacity: 1;
+  color: #999999;
+}
+
+.btn-medium a {
+  text-decoration: none;
+  color: #0C1021;
+}
